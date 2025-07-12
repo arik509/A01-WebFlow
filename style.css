@@ -40,8 +40,29 @@
 }
 
 nav{
-    margin: 50px 150px;
+    margin: 0 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+/* Header Styles */
+
+header{
+    background-image:url(Assets/Hero-bg.png);
+    margin-top: 0px;
+    height: 700px;
+}
+
+/* Banner Styles */
+.banner{
+    align-items: center;
+    margin: 150px 260px 200px 260px;
+    text-align: center;
+}
+
+.banner-title{
+    font-weight: bold;
+    font-size: 65px;
+    text-align: center;
 }
