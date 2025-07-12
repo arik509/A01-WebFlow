@@ -16,6 +16,7 @@
 .btn-1:hover{
     background-color: aqua;
     color: black;
+    cursor: pointer;
 }
 
 /* Fonts */
@@ -91,4 +92,33 @@ header{
     width: 400px;
     height: 328px;
     border-radius: 48px;
+}
+
+/* Productive Section */
+.productive{
+    margin: 50px 140px;
+    padding: 50px 80px;
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 24px;
+}
+.pc-card-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pc-title{
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.pc-card-title{
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.pc-card-des{
+    margin-top: 0px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
 }
